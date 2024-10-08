@@ -1,1 +1,1 @@
-https://drive.google.com/uc?export=download&id=1p8COShykwfPvkA7r-_jM5VFN4feMZm_P
+wget --no-check-certificate https://drive.google.com/uc?export=download&id=1p8COShykwfPvkA7r-_jM5VFN4feMZm_P

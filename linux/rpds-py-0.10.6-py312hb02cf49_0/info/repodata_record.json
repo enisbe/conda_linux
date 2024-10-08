@@ -1,0 +1,22 @@
+{
+  "arch": "x86_64",
+  "build": "py312hb02cf49_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=11.2.0",
+    "python >=3.12,<3.13.0a0"
+  ],
+  "fn": "rpds-py-0.10.6-py312hb02cf49_0.conda",
+  "license": "MIT",
+  "md5": "f014511c9cf2b20297e4cba31fa9a47d",
+  "name": "rpds-py",
+  "platform": "linux",
+  "sha256": "b42c8381db9fade296bc843af6c0eeab193a7a04243accd11fb187a481323914",
+  "size": 943377,
+  "subdir": "linux-64",
+  "timestamp": 1698982815000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/rpds-py-0.10.6-py312hb02cf49_0.conda",
+  "version": "0.10.6"
+}

@@ -1,0 +1,55 @@
+{% set name = "pkginfo" %}
+{% set version = "1.10.0" %}
+
+package:
+  name: '{{ name|lower }}'
+  version: '{{ version }}'
+
+source:
+  url: https://pypi.io/packages/source/p/pkginfo/pkginfo-{{ version }}.tar.gz
+  sha256: 5df73835398d10db79f8eecd5cd86b1f6d29317589ea70796994d49399af6297
+
+build:
+  number: 0
+  skip: True  # [py<38]
+  entry_points:
+    - pkginfo = pkginfo.commandline:main
+  script: {{ PYTHON }} -m pip install --no-deps --no-build-isolation . -vv
+
+requirements:
+  host:
+    - python
+    - pip
+    - setuptools
+    - wheel
+  run:
+    - python
+
+test:
+  imports:
+    - pkginfo
+    - pkginfo.tests
+  commands:
+    - pip check
+    - pkginfo --help
+  requires:
+    - pip
+
+about:
+  home: https://code.launchpad.net/~tseaver/pkginfo/trunk
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE.txt
+  summary: Query metadatdata from sdists / bdists / installed packages.
+  description: |
+    This package provides an API for querying the distutils metadata written in
+    the ``PKG-INFO`` file inside a source distriubtion (an ``sdist``) or
+    a binary distribution (e.g., created by running ``bdist_egg``)
+  doc_url: https://pythonhosted.org/pkginfo/
+  dev_url: https://code.launchpad.net/~tseaver/pkginfo/trunk
+
+extra:
+  recipe-maintainers:
+    - jakirkham
+    - jankatins
+    - mingwandroid

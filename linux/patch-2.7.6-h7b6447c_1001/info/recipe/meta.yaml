@@ -1,0 +1,58 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/patch-2.7.6-on-linux_64, last modified Sun Nov 17 00:43:49 2019
+# ------------------------------------------------
+
+package:
+    name: patch
+    version: 2.7.6
+source:
+    fn: patch-2.7.6.tar.gz
+    patches:
+        - 0001-Relax-open-fds-count-for-deep-directories.patch
+    sha256: 8cf86e00ad3aaa6d26aca30640e86b0e3e1f395ed99f189b06d4c9f74bc58a4e
+    url: https://ftp.gnu.org/gnu/patch/patch-2.7.6.tar.gz
+build:
+    number: '1001'
+    string: h7b6447c_1001
+requirements:
+    build:
+        - _libgcc_mutex 0.1 main
+        - binutils_impl_linux-64 2.31.1 h6176602_1
+        - binutils_linux-64 2.31.1 h6176602_8
+        - gcc_impl_linux-64 7.3.0 habb00fd_1
+        - gcc_linux-64 7.3.0 h553295d_8
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - make 4.2.1 h1bed415_1
+    host:
+        - _libgcc_mutex 0.1 main
+        - libgcc-ng 9.1.0 hdf63c60_0
+    run:
+        - libgcc-ng >=7.3.0
+test:
+    commands:
+        - patch --help
+    files:
+        - testfile
+        - testfile.patch
+        - testfile2
+about:
+    description: 'Patch takes a patch file containing a difference listing produced
+        by the
+
+        diff program and applies those differences to one or more original files,
+
+        producing patched versions.
+
+        '
+    dev_url: http://git.savannah.gnu.org/cgit/patch.git
+    home: http://savannah.gnu.org/projects/patch/
+    license: GPL 3
+    license_file: COPYING
+    summary: Native Win32 versions of common unix tools
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - nehaljwani

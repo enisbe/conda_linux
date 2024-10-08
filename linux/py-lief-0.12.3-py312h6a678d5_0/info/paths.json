@@ -1,0 +1,11 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.12/site-packages/lief.cpython-312-x86_64-linux-gnu.so",
+      "path_type": "hardlink",
+      "sha256": "681623e9f26c82d1d96e0d55b57b257111b18ab0fdef996b5a6b0c9dc63e90f3",
+      "size_in_bytes": 7022968
+    }
+  ],
+  "paths_version": 1
+}

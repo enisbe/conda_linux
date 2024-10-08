@@ -1,0 +1,65 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.12/site-packages/pyodbc-5.1.0.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "lib/python3.12/site-packages/pyodbc-5.1.0.dist-info/LICENSE.txt",
+      "path_type": "hardlink",
+      "sha256": "9859c85770c91b7866b0f769c938e36d64d0260141b529b947b4ead96883eab4",
+      "size_in_bytes": 868
+    },
+    {
+      "_path": "lib/python3.12/site-packages/pyodbc-5.1.0.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "6c5bc902481f622b14c04047ae3ef6d95635cfa9a174344c148372bba0d54674",
+      "size_in_bytes": 2717
+    },
+    {
+      "_path": "lib/python3.12/site-packages/pyodbc-5.1.0.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "5736686fcacb8dce32715d6109c86bbe26de0dac56db7b6dcf96dd0fbe586676",
+      "size_in_bytes": 824
+    },
+    {
+      "_path": "lib/python3.12/site-packages/pyodbc-5.1.0.dist-info/REQUESTED",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "lib/python3.12/site-packages/pyodbc-5.1.0.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "15ae25b8e64cb5b3fd4f5947f6be4201bd6d8842a4d84a0bbc20f4b3192d00c6",
+      "size_in_bytes": 104
+    },
+    {
+      "_path": "lib/python3.12/site-packages/pyodbc-5.1.0.dist-info/direct_url.json",
+      "path_type": "hardlink",
+      "sha256": "b6503d8b520f1e1a0f93a9322bf9a6cd6d91a3af5b43b628ab509e9c50966833",
+      "size_in_bytes": 66
+    },
+    {
+      "_path": "lib/python3.12/site-packages/pyodbc-5.1.0.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "45bebdbd2f9234dfc17e1f7dbd7ede09cbc4009a32ce8c06deee11ed6dfa165c",
+      "size_in_bytes": 8
+    },
+    {
+      "_path": "lib/python3.12/site-packages/pyodbc.cpython-312-x86_64-linux-gnu.so",
+      "path_type": "hardlink",
+      "sha256": "64063a625df2600384448133470776087a001684612698db8102a5b95896e36e",
+      "size_in_bytes": 199832
+    },
+    {
+      "_path": "lib/python3.12/site-packages/pyodbc.pyi",
+      "path_type": "hardlink",
+      "sha256": "497903a04b357e9f8a7b8cda8a117b7cca0a8b92e47c2c32010f1ff4543ebd08",
+      "size_in_bytes": 32351
+    }
+  ],
+  "paths_version": 1
+}

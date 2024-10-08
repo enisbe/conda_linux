@@ -1,0 +1,149 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.12/site-packages/filelock-3.13.1.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "lib/python3.12/site-packages/filelock-3.13.1.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "822ecbc86f9d12e381642df6c227be38e1b43a43d91c006c9fdad7bf1b9095c0",
+      "size_in_bytes": 2784
+    },
+    {
+      "_path": "lib/python3.12/site-packages/filelock-3.13.1.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "433276e1994f9b26b7850a5ed0b357a7de686009cc14faebd146ef6ddd3c3dc3",
+      "size_in_bytes": 1648
+    },
+    {
+      "_path": "lib/python3.12/site-packages/filelock-3.13.1.dist-info/REQUESTED",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "lib/python3.12/site-packages/filelock-3.13.1.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "f5006e1e183a14d5bb969a5ba05daf2956c2193573b05ca48114238e56a3ae10",
+      "size_in_bytes": 87
+    },
+    {
+      "_path": "lib/python3.12/site-packages/filelock-3.13.1.dist-info/direct_url.json",
+      "path_type": "hardlink",
+      "sha256": "f957fdf7d55061076bf955836f8b97beb2164e926b78d5bd61bca68909c77bd9",
+      "size_in_bytes": 102
+    },
+    {
+      "_path": "lib/python3.12/site-packages/filelock-3.13.1.dist-info/licenses/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "88d9b4eb60579c191ec391ca04c16130572d7eedc4a86daa58bf28c6e14c9bcd",
+      "size_in_bytes": 1210
+    },
+    {
+      "_path": "lib/python3.12/site-packages/filelock/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "c00559ffdffedd8d78c73ceea519390534d17b01497a4476bdff68231e0cef9d",
+      "size_in_bytes": 1213
+    },
+    {
+      "_path": "lib/python3.12/site-packages/filelock/__pycache__/__init__.cpython-312.pyc",
+      "path_type": "hardlink",
+      "sha256": "e12df3aafa07a97da4dcd28332026aa5f9556bc3f2dbe9950a1f1e630bc109ef",
+      "size_in_bytes": 1185
+    },
+    {
+      "_path": "lib/python3.12/site-packages/filelock/__pycache__/_api.cpython-312.pyc",
+      "path_type": "hardlink",
+      "sha256": "a5999d31e0b014e77bb97727cd99c29550a677d629af26d4a3673b3dfc059446",
+      "size_in_bytes": 13671
+    },
+    {
+      "_path": "lib/python3.12/site-packages/filelock/__pycache__/_error.cpython-312.pyc",
+      "path_type": "hardlink",
+      "sha256": "9022c7f53f66fa9bf98ffb49cc7712b422af005e6954213fb10a9faa46ce7683",
+      "size_in_bytes": 1722
+    },
+    {
+      "_path": "lib/python3.12/site-packages/filelock/__pycache__/_soft.cpython-312.pyc",
+      "path_type": "hardlink",
+      "sha256": "8b94a82ca77e5fb360352540368482a2287f74f76e2cdeed2c13437007b0b288",
+      "size_in_bytes": 2421
+    },
+    {
+      "_path": "lib/python3.12/site-packages/filelock/__pycache__/_unix.cpython-312.pyc",
+      "path_type": "hardlink",
+      "sha256": "5aecca1427b7141912d5afd78f4a088d77948feaed37baaca0d72911910e99ac",
+      "size_in_bytes": 3202
+    },
+    {
+      "_path": "lib/python3.12/site-packages/filelock/__pycache__/_util.cpython-312.pyc",
+      "path_type": "hardlink",
+      "sha256": "d437966d04a75a11ed86932d0354922013ab74b9136dead0ebd4b93fa7a6ee67",
+      "size_in_bytes": 1961
+    },
+    {
+      "_path": "lib/python3.12/site-packages/filelock/__pycache__/_windows.cpython-312.pyc",
+      "path_type": "hardlink",
+      "sha256": "141bded29969be0061d99b3fe6595422db34b1bf3a9d943477c60eb2f4ffd715",
+      "size_in_bytes": 3237
+    },
+    {
+      "_path": "lib/python3.12/site-packages/filelock/__pycache__/version.cpython-312.pyc",
+      "path_type": "hardlink",
+      "sha256": "e7541e9b1001efe256a05e926444b2ee42c79bcc06c75c96adfb83249208d9ca",
+      "size_in_bytes": 262
+    },
+    {
+      "_path": "lib/python3.12/site-packages/filelock/_api.py",
+      "path_type": "hardlink",
+      "sha256": "52c5563c438e8051f5a51ffa58c9366f985667b9d68543d3e46657f56b98682f",
+      "size_in_bytes": 11860
+    },
+    {
+      "_path": "lib/python3.12/site-packages/filelock/_error.py",
+      "path_type": "hardlink",
+      "sha256": "fb98cc7234eeeb4600bc03b551ba830f5188123564c2bf31085c0306d31e6038",
+      "size_in_bytes": 787
+    },
+    {
+      "_path": "lib/python3.12/site-packages/filelock/_soft.py",
+      "path_type": "hardlink",
+      "sha256": "85aaad73f4c1fca25b62fd9af22b8401c94ab8ce1f306d6f4dca76f2c2bdd7d7",
+      "size_in_bytes": 1711
+    },
+    {
+      "_path": "lib/python3.12/site-packages/filelock/_unix.py",
+      "path_type": "hardlink",
+      "sha256": "5621b7f0f809b08853df1680aee82fc344cf3fa556a0fd95263ec51085b2a648",
+      "size_in_bytes": 2157
+    },
+    {
+      "_path": "lib/python3.12/site-packages/filelock/_util.py",
+      "path_type": "hardlink",
+      "sha256": "7410e5223d5d1cbfe3b975f442aaba6d9b72139dd865337c18586dc93574e37a",
+      "size_in_bytes": 1708
+    },
+    {
+      "_path": "lib/python3.12/site-packages/filelock/_windows.py",
+      "path_type": "hardlink",
+      "sha256": "78c28bf1d64aae07a47f9558546475e1a9f6f4918422746d50ef2e8bd001cb08",
+      "size_in_bytes": 2177
+    },
+    {
+      "_path": "lib/python3.12/site-packages/filelock/py.typed",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "lib/python3.12/site-packages/filelock/version.py",
+      "path_type": "hardlink",
+      "sha256": "e7c4e0f55dba2e9a91476a55eb1fb83a3259b2d8197dec90624728093eb26b6b",
+      "size_in_bytes": 162
+    }
+  ],
+  "paths_version": 1
+}

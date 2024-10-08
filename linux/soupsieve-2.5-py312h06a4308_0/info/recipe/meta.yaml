@@ -1,0 +1,81 @@
+# This file created by conda-build 3.27.0
+# meta.yaml template originally from:
+# /work/perseverance-python-buildout/aggregate/soupsieve-feedstock/recipe, last modified Wed Nov  1 02:15:21 2023
+# ------------------------------------------------
+
+package:
+  name: soupsieve
+  version: '2.5'
+source:
+  sha256: 5663d5a7b3bfaeee0bc4372e7fc48f9cff4940b3eec54a6451cc5299f1097690
+  url: https://pypi.io/packages/source/s/soupsieve/soupsieve-2.5.tar.gz
+build:
+  number: '0'
+  script: /work/perseverance-python-buildout/croot/soupsieve_1698866207280/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla/bin/python
+    -m pip install . --no-deps --no-build-isolation -vv
+  string: py312h06a4308_0
+requirements:
+  host:
+    - _libgcc_mutex 0.1 main
+    - _openmp_mutex 5.1 1_gnu
+    - bzip2 1.0.8 h7b6447c_0
+    - ca-certificates 2023.08.22 h06a4308_0
+    - editables 0.3 py312h06a4308_0
+    - expat 2.5.0 h6a678d5_0
+    - hatchling 1.18.0 py312h06a4308_0
+    - ld_impl_linux-64 2.38 h1181459_1
+    - libffi 3.4.4 h6a678d5_0
+    - libgcc-ng 11.2.0 h1234567_1
+    - libgomp 11.2.0 h1234567_1
+    - libstdcxx-ng 11.2.0 h1234567_1
+    - libuuid 1.41.5 h5eee18b_0
+    - ncurses 6.4 h6a678d5_0
+    - openssl 3.0.11 h7f8727e_2
+    - packaging 23.1 py312h06a4308_0
+    - pathspec 0.10.3 py312h06a4308_0
+    - pip 23.3 py312h06a4308_0
+    - pluggy 1.0.0 py312h06a4308_1
+    - python 3.12.0 h996f2a0_0
+    - readline 8.2 h5eee18b_0
+    - setuptools 68.0.0 py312h06a4308_0
+    - sqlite 3.41.2 h5eee18b_0
+    - tk 8.6.12 h1ccaba5_0
+    - trove-classifiers 2023.10.18 py312h06a4308_0
+    - tzdata 2023c h04d1e81_0
+    - wheel 0.41.2 py312h06a4308_0
+    - xz 5.4.2 h5eee18b_0
+    - zlib 1.2.13 h5eee18b_0
+  run:
+    - python >=3.12,<3.13.0a0
+test:
+  commands:
+    - pip check
+  imports:
+    - bs4
+    - soupsieve
+  requires:
+    - beautifulsoup4
+    - pip
+about:
+  description: 'Soup Sieve is a CSS selector library designed to be used with Beautiful
+    Soup 4.
+
+    It aims to provide selecting, matching, and filtering using modern CSS selectors.
+
+    Soup Sieve currently provides selectors from the CSS level 1 specifications up
+
+    through the latest CSS level 4 drafts and beyond (though some are not yet implemented).
+
+    '
+  dev_url: https://github.com/facelessuser/soupsieve
+  doc_url: https://facelessuser.github.io/soupsieve/
+  home: https://facelessuser.github.io/soupsieve
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE.md
+  summary: A modern CSS selector implementation for BeautifulSoup
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - jschueller

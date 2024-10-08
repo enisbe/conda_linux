@@ -1,0 +1,23 @@
+{
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python",
+    "libarchive"
+  ],
+  "fn": "python-libarchive-c-5.1-pyhd3eb1b0_0.conda",
+  "license": "CC0-1.0",
+  "license_family": "CC",
+  "md5": "7952606fde014b712cc9ff33622921bf",
+  "name": "python-libarchive-c",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "3b0dcc31171a7a2eed3440228ad9e8b44f6b3a63bcfeb4507f5928c24db5355f",
+  "size": 50783,
+  "subdir": "noarch",
+  "timestamp": 1726069825000,
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/python-libarchive-c-5.1-pyhd3eb1b0_0.conda",
+  "version": "5.1"
+}

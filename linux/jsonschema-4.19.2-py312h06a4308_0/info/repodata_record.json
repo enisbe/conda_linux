@@ -1,0 +1,26 @@
+{
+  "arch": "x86_64",
+  "build": "py312h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.12,<3.13.0a0",
+    "attrs >=22.2.0",
+    "jsonschema-specifications >=2023.03.6",
+    "referencing >=0.28.4",
+    "rpds-py >=0.7.1"
+  ],
+  "fn": "jsonschema-4.19.2-py312h06a4308_0.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "5f74dfc66bdbe28a628b982f2ee0c345",
+  "name": "jsonschema",
+  "platform": "linux",
+  "sha256": "89fc1439ada7e6d58460dcf406ef421ee315392ee1bfec4596a38cbbaf79e26d",
+  "size": 181375,
+  "subdir": "linux-64",
+  "timestamp": 1701731745000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/jsonschema-4.19.2-py312h06a4308_0.conda",
+  "version": "4.19.2"
+}

@@ -1,0 +1,17 @@
+{
+  "arch": null,
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "depends": [
+    "libarchive",
+    "python"
+  ],
+  "license": "CC0-1.0",
+  "license_family": "CC",
+  "name": "python-libarchive-c",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1726069825791,
+  "version": "5.1"
+}

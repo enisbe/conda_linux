@@ -1,0 +1,33 @@
+{
+  "arch": "x86_64",
+  "build": "h7a1cb2a_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "pip",
+    "ld_impl_linux-64",
+    "libgcc-ng >=11.2.0",
+    "zlib >=1.2.13,<1.3.0a0",
+    "readline >=8.0,<9.0a0",
+    "libffi >=3.4,<4.0a0",
+    "tk >=8.6.12,<8.7.0a0",
+    "libffi >=3.4,<3.5",
+    "ncurses >=6.3,<7.0a0",
+    "xz >=5.2.10,<6.0a0",
+    "openssl >=1.1.1s,<1.1.2a",
+    "sqlite >=3.40.1,<4.0a0"
+  ],
+  "fn": "python-3.7.16-h7a1cb2a_0.conda",
+  "license": "PSF-2.0",
+  "license_family": "PSF",
+  "md5": "74fc6c57e82f6a6e350c5956ec89c086",
+  "name": "python",
+  "platform": "linux",
+  "sha256": "79f45b76a261d3ae776172af07c7d22d30369813d7d8ae2a7236362c906405a3",
+  "size": 47021233,
+  "subdir": "linux-64",
+  "timestamp": 1673994356000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/python-3.7.16-h7a1cb2a_0.conda",
+  "version": "3.7.16"
+}

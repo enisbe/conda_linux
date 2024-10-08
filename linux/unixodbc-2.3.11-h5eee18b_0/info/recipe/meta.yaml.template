@@ -1,0 +1,60 @@
+{% set name = "unixODBC" %}
+{% set version = "2.3.11" %}
+{% set sha256 = "d9e55c8e7118347e3c66c87338856dad1516b490fb7c756c1562a2c267c73b5c" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  url: http://www.unixodbc.org/{{ name }}-{{ version }}.tar.gz
+  sha256: {{ sha256 }}
+
+build:
+  number: 0
+  skip: true  # [win]
+  run_exports:
+    # excellent within minor versions: https://abi-laboratory.pro/tracker/timeline/unixodbc/
+    - {{ pin_subpackage('unixodbc', max_pin='x.x') }}
+
+requirements:
+  build:
+    - {{ compiler('c') }}
+    - automake
+    - libtool
+    - make
+  host:
+    - libiconv  # [osx]
+    - libedit
+    - flex
+
+test:
+  commands:
+    - test -f $PREFIX/lib/libodbc.2.dylib  # [osx]
+    - test -f $PREFIX/lib/libodbc.dylib  # [osx]
+    - test -f $PREFIX/lib/libodbcinst.2.dylib  # [osx]
+    - test -f $PREFIX/lib/libodbcinst.dylib  # [osx]
+    - test -f $PREFIX/lib/libodbc.so.2.0.0  # [linux]
+    - test -f $PREFIX/lib/libodbc.so  # [linux]
+    - test -f $PREFIX/lib/libodbcinst.so.2.0.0  # [linux]
+    - test -f $PREFIX/lib/libodbcinst.so  # [linux]
+    - isql --help
+    - iusql --help
+
+about:
+  home: http://www.unixodbc.org/
+  license: LGPL-2.1-or-later
+  license_file: COPYING
+  license_family: LGPL
+  summary: 'ODBC on non MS Windows platforms'
+  description: |
+    The unixODBC Project goals are to develop and promote unixODBC to be the
+    definitive standard for ODBC on non MS Windows platforms. This is to
+    include GUI support for both KDE and GNOME.
+  doc_url: http://www.unixodbc.org/doc/UserManual/
+  dev_url: https://github.com/lurcher/unixODBC
+
+extra:
+  recipe-maintainers:
+    - MathMagique
+    - xhochy

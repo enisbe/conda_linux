@@ -1,0 +1,103 @@
+# This file created by conda-build 24.1.2
+# meta.yaml template originally from:
+# /feedstock/recipe, last modified Wed Sep 11 15:49:46 2024
+# ------------------------------------------------
+
+package:
+  name: python-libarchive-c
+  version: '5.1'
+source:
+  sha256: 7bcce24ea6c0fa3bc62468476c6d2f6264156db2f04878a372027c10615a2721
+  url: https://pypi.io/packages/source/l/libarchive-c/libarchive-c-5.1.tar.gz
+build:
+  noarch: python
+  number: '0'
+  script:
+    - /croot/python-libarchive-c_1726069797193/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/bin/python
+      -m pip install . -vv --no-deps --no-build-isolation
+    - cd /feedstock/recipe
+    - /croot/python-libarchive-c_1726069797193/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/bin/python
+      delete_unicode_files.py
+  string: pyhd3eb1b0_0
+requirements:
+  build:
+    - _libgcc_mutex 0.1 main
+    - _openmp_mutex 5.1 1_gnu
+    - bzip2 1.0.8 h5eee18b_6
+    - ca-certificates 2024.7.2 h06a4308_0
+    - expat 2.6.3 h6a678d5_0
+    - ld_impl_linux-64 2.38 h1181459_1
+    - libffi 3.4.4 h6a678d5_1
+    - libgcc-ng 11.2.0 h1234567_1
+    - libgomp 11.2.0 h1234567_1
+    - libstdcxx-ng 11.2.0 h1234567_1
+    - libuuid 1.41.5 h5eee18b_0
+    - ncurses 6.4 h6a678d5_0
+    - openssl 3.0.15 h5eee18b_0
+    - python 3.12.4 h5148396_1
+    - readline 8.2 h5eee18b_0
+    - sqlite 3.45.3 h5eee18b_0
+    - tk 8.6.14 h39e8969_0
+    - tzdata 2024a h04d1e81_0
+    - xz 5.4.6 h5eee18b_1
+    - zlib 1.2.13 h5eee18b_1
+  host:
+    - _libgcc_mutex 0.1 main
+    - _openmp_mutex 5.1 1_gnu
+    - bzip2 1.0.8 h5eee18b_6
+    - ca-certificates 2024.7.2 h06a4308_0
+    - expat 2.6.3 h6a678d5_0
+    - ld_impl_linux-64 2.38 h1181459_1
+    - libffi 3.4.4 h6a678d5_1
+    - libgcc-ng 11.2.0 h1234567_1
+    - libgomp 11.2.0 h1234567_1
+    - libstdcxx-ng 11.2.0 h1234567_1
+    - libuuid 1.41.5 h5eee18b_0
+    - ncurses 6.4 h6a678d5_0
+    - openssl 3.0.15 h5eee18b_0
+    - pip 24.2 py312h06a4308_0
+    - python 3.12.4 h5148396_1
+    - readline 8.2 h5eee18b_0
+    - setuptools 72.1.0 py312h06a4308_0
+    - sqlite 3.45.3 h5eee18b_0
+    - tk 8.6.14 h39e8969_0
+    - tzdata 2024a h04d1e81_0
+    - wheel 0.43.0 py312h06a4308_0
+    - xz 5.4.6 h5eee18b_1
+    - zlib 1.2.13 h5eee18b_1
+  run:
+    - libarchive
+    - python
+test:
+  commands:
+    - python -c "import libarchive; libarchive.extract_file('test/hello_world.xar')"
+    - python -c "import os, shutil, libarchive; shutil.copytree(os.path.dirname(libarchive.__file__),
+      'libarchive')"
+    - pytest -vv --cov libarchive --cov-report term-missing:skip-covered --cov-fail-under=83
+      -k "not unicode_entries"
+  files:
+    - test/hello_world.xar
+  imports:
+    - libarchive
+  requires:
+    - mock
+    - pytest-cov
+  source_files:
+    - README.rst
+    - tests
+about:
+  home: https://github.com/Changaco/python-libarchive-c
+  license: CC0-1.0
+  license_family: CC
+  license_file: cc0-1.0.txt
+  summary: Python interface to libarchive
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: 1c4b341d-ec3b-4e0c-a8e8-8d4afc8775fc
+  recipe-maintainers:
+    - bollwyvl
+    - mingwandroid
+    - ocefpaf
+  remote_url: git@github.com:AnacondaRecipes/python-libarchive-c-feedstock.git
+  sha: 66c2983bbf6132b75ce03bb420a7e8a721ccb67b

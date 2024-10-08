@@ -1,0 +1,54 @@
+{% set name = "pyodbc" %}
+{% set version = "5.1.0" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 397feee44561a6580be08cedbe986436859563f4bb378f48224655c8e987ea60
+
+build:
+  number: 0
+  script: {{ PYTHON }} -m pip install . --no-deps --no-build-isolation -vv
+  skip: true # [py<38]
+
+requirements:
+  build:
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
+  host:
+    - python
+    - pip
+    - setuptools
+    - unixodbc 2.3.11 # [unix]
+    - wheel
+  run:
+    - python
+
+test:
+  imports:
+    - pyodbc
+  requires:
+    - pip
+  commands:
+    - pip check
+    - python -c "import pyodbc; print('\n'.join(sorted(pyodbc.drivers())))"
+
+about:
+  home: https://github.com/mkleehammer/pyodbc
+  license: MIT-0
+  license_family: MIT
+  license_file: LICENSE.txt
+  summary: DB API Module for ODBC
+  description: |
+    pyodbc is a Python DB API 2 module for ODBC. This project provides an
+    up-to-date, convenient interface to ODBC using native data types like
+    datetime and decimal.
+  doc_url: https://mkleehammer.github.io/pyodbc/
+  dev_url: https://github.com/mkleehammer/pyodbc
+
+extra:
+  recipe-maintainers:
+    - nehaljwani

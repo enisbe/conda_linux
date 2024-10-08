@@ -1,0 +1,84 @@
+# This file created by conda-build 3.21.9
+# meta.yaml template originally from:
+# /tmp/abs_726pjoawby/clone/recipe, last modified Wed Aug  3 20:45:06 2022
+# ------------------------------------------------
+
+package:
+  name: unixodbc
+  version: 2.3.11
+source:
+  sha256: d9e55c8e7118347e3c66c87338856dad1516b490fb7c756c1562a2c267c73b5c
+  url: http://www.unixodbc.org/unixODBC-2.3.11.tar.gz
+build:
+  number: '0'
+  run_exports:
+    - unixodbc >=2.3.11,<2.4.0a0
+  string: h5eee18b_0
+requirements:
+  build:
+    - _libgcc_mutex 0.1 main
+    - _openmp_mutex 5.1 1_gnu
+    - _sysroot_linux-64_curr_repodata_hack 3 haa98f57_10
+    - autoconf 2.69 pl526hebd4dad_5
+    - automake 1.16.2 pl526_0
+    - binutils_impl_linux-64 2.38 h2a08ee3_1
+    - binutils_linux-64 2.38.0 hc2dff05_0
+    - gcc_impl_linux-64 11.2.0 h1234567_1
+    - gcc_linux-64 11.2.0 h5c386dc_0
+    - kernel-headers_linux-64 3.10.0 h57e8cba_10
+    - ld_impl_linux-64 2.38 h1181459_1
+    - libgcc-devel_linux-64 11.2.0 h1234567_1
+    - libgcc-ng 11.2.0 h1234567_1
+    - libgomp 11.2.0 h1234567_1
+    - libstdcxx-ng 11.2.0 h1234567_1
+    - libtool 2.4.6 h295c915_1008
+    - m4 1.4.18 h4e445db_0
+    - make 4.2.1 h1bed415_1
+    - perl 5.26.2 h14c3975_0
+    - sysroot_linux-64 2.17 h57e8cba_10
+  host:
+    - _libgcc_mutex 0.1 main
+    - _openmp_mutex 5.1 1_gnu
+    - flex 2.6.4 ha10e3a4_1
+    - libedit 3.1.20210910 h7f8727e_0
+    - libgcc-ng 11.2.0 h1234567_1
+    - libgomp 11.2.0 h1234567_1
+    - libstdcxx-ng 11.2.0 h1234567_1
+    - m4 1.4.18 h4e445db_0
+    - ncurses 6.3 h5eee18b_3
+  run:
+    - libedit >=3.1.20210910,<3.2.0a0
+    - libgcc-ng >=11.2.0
+test:
+  commands:
+    - test -f $PREFIX/lib/libodbc.so.2.0.0
+    - test -f $PREFIX/lib/libodbc.so
+    - test -f $PREFIX/lib/libodbcinst.so.2.0.0
+    - test -f $PREFIX/lib/libodbcinst.so
+    - isql --help
+    - iusql --help
+about:
+  description: 'The unixODBC Project goals are to develop and promote unixODBC to
+    be the
+
+    definitive standard for ODBC on non MS Windows platforms. This is to
+
+    include GUI support for both KDE and GNOME.
+
+    '
+  dev_url: https://github.com/lurcher/unixODBC
+  doc_url: http://www.unixodbc.org/doc/UserManual/
+  home: http://www.unixodbc.org/
+  license: LGPL-2.1-or-later
+  license_family: LGPL
+  license_file: COPYING
+  summary: ODBC on non MS Windows platforms
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: 72c6f4ed-31b7-403c-92cc-88d7e1d9c367
+  recipe-maintainers:
+    - MathMagique
+    - xhochy
+  remote_url: git@github.com:AnacondaRecipes/unixodbc-feedstock.git
+  sha: d882b2bce1c3b6915ce8a62e41f5950cc2e84d30

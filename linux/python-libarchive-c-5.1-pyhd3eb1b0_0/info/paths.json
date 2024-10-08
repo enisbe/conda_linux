@@ -1,0 +1,101 @@
+{
+  "paths": [
+    {
+      "_path": "site-packages/libarchive/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "d31fe4830523a6d3aa581c31d28d177085f92083cf93cf984a54aebca16b9aa7",
+      "size_in_bytes": 601
+    },
+    {
+      "_path": "site-packages/libarchive/entry.py",
+      "path_type": "hardlink",
+      "sha256": "a0f3e1fb612b66a0f262117e2ca59e93ad207423dc2c2ec7cebcbeccad3bd2a3",
+      "size_in_bytes": 14436
+    },
+    {
+      "_path": "site-packages/libarchive/exception.py",
+      "path_type": "hardlink",
+      "sha256": "a1b715542f710629f42c2732d0f8bfec3afb4d0d094db5fc76388795127d492f",
+      "size_in_bytes": 370
+    },
+    {
+      "_path": "site-packages/libarchive/extract.py",
+      "path_type": "hardlink",
+      "sha256": "dd037ebca0cca6f941dfa0013b13ead222d84ca726bc096ba7f330cd84c02e1a",
+      "size_in_bytes": 2694
+    },
+    {
+      "_path": "site-packages/libarchive/ffi.py",
+      "path_type": "hardlink",
+      "sha256": "3795bd527317dc417981ceb8793e97a5e06ba98d1fe6df2ca4464bde16bea134",
+      "size_in_bytes": 12593
+    },
+    {
+      "_path": "site-packages/libarchive/flags.py",
+      "path_type": "hardlink",
+      "sha256": "57954fa9f5c86d87fd995337dd4ae25d3e01a03984ca8de810d3ce83843446b2",
+      "size_in_bytes": 211
+    },
+    {
+      "_path": "site-packages/libarchive/read.py",
+      "path_type": "hardlink",
+      "sha256": "65000ac760f78869cf4fada1910d6844e85fa3c7f7749f2f0644ea3461855336",
+      "size_in_bytes": 5923
+    },
+    {
+      "_path": "site-packages/libarchive/write.py",
+      "path_type": "hardlink",
+      "sha256": "7c2dcdd3eeef396c3ea302e35eb6f38777f4624ebbbcc430548a2b859f7699af",
+      "size_in_bytes": 10444
+    },
+    {
+      "_path": "site-packages/libarchive_c-5.1.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "site-packages/libarchive_c-5.1.dist-info/LICENSE.md",
+      "path_type": "hardlink",
+      "sha256": "bd1a963f2c77481f0a658b5fa7fe77c2515e73be3972f1e991741b72f6fd7d31",
+      "size_in_bytes": 51
+    },
+    {
+      "_path": "site-packages/libarchive_c-5.1.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "c9e307930293863b3d602ce0b9a5777f34cac14fabe7a4680d0b014192d4b0ac",
+      "size_in_bytes": 5308
+    },
+    {
+      "_path": "site-packages/libarchive_c-5.1.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "96d9b5d024d1d08ef2d0b5fd7f14eff9eae725eacd0ce5b1975e5f3050f46a7b",
+      "size_in_bytes": 1700
+    },
+    {
+      "_path": "site-packages/libarchive_c-5.1.dist-info/REQUESTED",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "site-packages/libarchive_c-5.1.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "5d1c56e2bd4f3625613293f86d3f685adbb71f29ddc6927ce1292e6c5833a7f6",
+      "size_in_bytes": 109
+    },
+    {
+      "_path": "site-packages/libarchive_c-5.1.dist-info/direct_url.json",
+      "path_type": "hardlink",
+      "sha256": "67a334f60aebe6ba5042dd452925c55564b41da8115c714abec79b3dc1e9e1f3",
+      "size_in_bytes": 79
+    },
+    {
+      "_path": "site-packages/libarchive_c-5.1.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "e932b801d70f378801d141e8eba1fb70618948539a1cea38c7463fe074a404fa",
+      "size_in_bytes": 11
+    }
+  ],
+  "paths_version": 1
+}

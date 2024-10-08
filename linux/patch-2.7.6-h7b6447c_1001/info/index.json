@@ -1,0 +1,14 @@
+{
+  "arch": "x86_64",
+  "build": "h7b6447c_1001",
+  "build_number": 1001,
+  "depends": [
+    "libgcc-ng >=7.3.0"
+  ],
+  "license": "GPL 3",
+  "name": "patch",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1573953235116,
+  "version": "2.7.6"
+}

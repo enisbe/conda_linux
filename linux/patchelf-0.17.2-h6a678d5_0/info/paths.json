@@ -1,0 +1,25 @@
+{
+  "paths": [
+    {
+      "_path": "bin/patchelf",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/croot/patchelf_1675208065017/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+      "sha256": "82f652529bebb0f160afc9e99cdf61b7622a967263f077c4153ff1b6bbdf7684",
+      "size_in_bytes": 213424
+    },
+    {
+      "_path": "share/doc/patchelf/README.md",
+      "path_type": "hardlink",
+      "sha256": "ea103a890991bc00a3f7879ac2296a7fe558893585e59c65038ad6599ac0ddd7",
+      "size_in_bytes": 3196
+    },
+    {
+      "_path": "share/man/man1/patchelf.1",
+      "path_type": "hardlink",
+      "sha256": "54e4acca2f0c5c4631ce27f20b5da9c7ad08fabe4f272becbc0feabff00cc312",
+      "size_in_bytes": 4466
+    }
+  ],
+  "paths_version": 1
+}

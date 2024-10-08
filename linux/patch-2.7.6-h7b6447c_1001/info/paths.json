@@ -1,0 +1,19 @@
+{
+  "paths": [
+    {
+      "_path": "bin/patch",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/tmp/build/80754af9/patch_1573953154623/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+      "sha256": "0831ce5fa2a3cb1be0f0e7cc50e623f141e7a7bd218c2944c0c1158a7c3d6b1d",
+      "size_in_bytes": 216024
+    },
+    {
+      "_path": "share/man/man1/patch.1",
+      "path_type": "hardlink",
+      "sha256": "debf3b3def307b644c4e61494afa8ab7691c5fb20ccad484bb31ea5b970892ab",
+      "size_in_bytes": 34708
+    }
+  ],
+  "paths_version": 1
+}

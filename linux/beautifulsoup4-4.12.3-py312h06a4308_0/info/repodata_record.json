@@ -1,0 +1,23 @@
+{
+  "arch": "x86_64",
+  "build": "py312h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.12,<3.13.0a0",
+    "soupsieve >1.2"
+  ],
+  "fn": "beautifulsoup4-4.12.3-py312h06a4308_0.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "79afccbd2199c75b590ecac6228716f2",
+  "name": "beautifulsoup4",
+  "platform": "linux",
+  "sha256": "da9d244e155f8e91702dc299af233e4092c8400c8fa0c0f9f62601490129b231",
+  "size": 277502,
+  "subdir": "linux-64",
+  "timestamp": 1718029882000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/beautifulsoup4-4.12.3-py312h06a4308_0.conda",
+  "version": "4.12.3"
+}

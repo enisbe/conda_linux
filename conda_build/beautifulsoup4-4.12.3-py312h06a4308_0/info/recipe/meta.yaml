@@ -1,0 +1,86 @@
+# This file created by conda-build 24.1.2
+# ------------------------------------------------
+
+package:
+  name: beautifulsoup4
+  version: 4.12.3
+source:
+  sha256: 74e3d1928edc070d21748185c46e3fb33490f22f52a3addee9aee0f4f7781051
+  url: https://pypi.io/packages/source/b/beautifulsoup4/beautifulsoup4-4.12.3.tar.gz
+build:
+  noarch: false
+  noarch_python: false
+  number: '0'
+  script: build_base.sh
+  string: py312h06a4308_0
+requirements:
+  host:
+    - _libgcc_mutex 0.1 main
+    - _openmp_mutex 5.1 1_gnu
+    - bzip2 1.0.8 h5eee18b_6
+    - ca-certificates 2024.3.11 h06a4308_0
+    - editables 0.3 py312h06a4308_0
+    - expat 2.6.2 h6a678d5_0
+    - hatchling 1.21.1 py312h06a4308_0
+    - ld_impl_linux-64 2.38 h1181459_1
+    - libffi 3.4.4 h6a678d5_1
+    - libgcc-ng 11.2.0 h1234567_1
+    - libgomp 11.2.0 h1234567_1
+    - libstdcxx-ng 11.2.0 h1234567_1
+    - libuuid 1.41.5 h5eee18b_0
+    - ncurses 6.4 h6a678d5_0
+    - openssl 3.0.13 h7f8727e_2
+    - packaging 23.2 py312h06a4308_0
+    - pathspec 0.10.3 py312h06a4308_0
+    - pip 24.0 py312h06a4308_0
+    - pluggy 1.0.0 py312h06a4308_1
+    - python 3.12.3 h996f2a0_1
+    - readline 8.2 h5eee18b_0
+    - setuptools 69.5.1 py312h06a4308_0
+    - sqlite 3.45.3 h5eee18b_0
+    - tk 8.6.14 h39e8969_0
+    - trove-classifiers 2023.10.18 py312h06a4308_0
+    - tzdata 2024a h04d1e81_0
+    - wheel 0.43.0 py312h06a4308_0
+    - xz 5.4.6 h5eee18b_1
+    - zlib 1.2.13 h5eee18b_1
+  run:
+    - python >=3.12,<3.13.0a0
+    - soupsieve >1.2
+test:
+  commands:
+    - pip check
+    - pytest --pyargs bs4
+  imports:
+    - bs4
+    - bs4.builder
+  requires:
+    - html5lib
+    - lxml
+    - pip
+    - pytest >=6
+about:
+  description: 'Beautiful Soup is a library for pulling data out of HTML and XML files.
+
+    It provides ways of navigating, searching, and modifying parse trees.
+
+    '
+  dev_url: https://code.launchpad.net/beautifulsoup
+  doc_url: https://beautiful-soup-4.readthedocs.io/
+  home: https://www.crummy.com/software/BeautifulSoup/
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE
+  summary: Python library designed for screen-scraping
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: a24e41c5-6ad1-4b3c-af65-713f6f7cd372
+  recipe-maintainers:
+    - jschueller
+    - nehaljwani
+  remote_url: git@github.com:AnacondaRecipes/beautifulsoup4-feedstock.git
+  sha: a953eb436f9d5abd289437a752f6071e32e15f46
+  skip-lints:
+    - missing_python_build_tool
+    - missing_wheel

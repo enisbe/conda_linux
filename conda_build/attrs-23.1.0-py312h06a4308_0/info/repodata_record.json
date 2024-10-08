@@ -1,0 +1,22 @@
+{
+  "arch": "x86_64",
+  "build": "py312h06a4308_0",
+  "build_number": 0,
+  "channel": "<unknown>",
+  "constrains": [],
+  "depends": [
+    "python >=3.12,<3.13.0a0"
+  ],
+  "fn": "attrs-23.1.0-py312h06a4308_0.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "e8016c6839c63842d4a32bace7359ad8",
+  "name": "attrs",
+  "platform": "linux",
+  "sha256": "d72412c71b37439a0017ff68e6f2b112704a2332c7aecb2884ce3d9f2c252b5e",
+  "size": 156296,
+  "subdir": "linux-64",
+  "timestamp": 1698845877080,
+  "url": "file:///home/enisbe/conda_packages/attrs-23.1.0-py312h06a4308_0.conda",
+  "version": "23.1.0"
+}

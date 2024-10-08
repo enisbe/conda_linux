@@ -1,0 +1,22 @@
+{
+  "arch": "x86_64",
+  "build": "py312h06a4308_0",
+  "build_number": 0,
+  "channel": "<unknown>",
+  "constrains": [],
+  "depends": [
+    "python >=3.12,<3.13.0a0"
+  ],
+  "fn": "filelock-3.13.1-py312h06a4308_0.conda",
+  "license": "Unlicense",
+  "license_family": "Public-Domain",
+  "md5": "6a0b440821945eda176c2bd78fd64a56",
+  "name": "filelock",
+  "platform": "linux",
+  "sha256": "6216d8ba156d16ead6e2b4553e39bc9ba9def683592e5d4ba42059fc3d9cb66d",
+  "size": 24289,
+  "subdir": "linux-64",
+  "timestamp": 1701734031998,
+  "url": "file:///home/enisbe/conda_packages/filelock-3.13.1-py312h06a4308_0.conda",
+  "version": "3.13.1"
+}

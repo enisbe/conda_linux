@@ -1,0 +1,22 @@
+{
+  "arch": "x86_64",
+  "build": "py312h06a4308_0",
+  "build_number": 0,
+  "channel": "<unknown>",
+  "constrains": [],
+  "depends": [
+    "python >=3.12,<3.13.0a0"
+  ],
+  "fn": "pkginfo-1.10.0-py312h06a4308_0.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "2a32de7c1bccd483668b26d4cf589488",
+  "name": "pkginfo",
+  "platform": "linux",
+  "sha256": "7b8a093a59f554b439b08d079b53e0f9fa786eea992c4d9a7c75d74995480311",
+  "size": 64302,
+  "subdir": "linux-64",
+  "timestamp": 1715696052703,
+  "url": "file:///home/enisbe/conda_packages/pkginfo-1.10.0-py312h06a4308_0.conda",
+  "version": "1.10.0"
+}

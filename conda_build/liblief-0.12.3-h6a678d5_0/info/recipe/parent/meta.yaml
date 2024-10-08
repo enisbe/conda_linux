@@ -1,0 +1,110 @@
+{% set version = "0.12.3" %}
+
+package:
+  name: lief
+  version: {{ version }}
+
+source:
+  - url: https://github.com/lief-project/LIEF/archive/{{ version }}.tar.gz
+    fn: lief-{{ version }}.tar.gz
+    sha256: 762925ad2eed642a6e7ef2cc899bcd3e93a40a2ce1dd2391d9b9ecadfe6438cf
+    patches:  # [win]
+      - patches/CMakeLists.txt.patch  # [win]
+
+build:
+  number: 0
+  skip: true  # [py<36]
+
+requirements:
+  build:
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
+    - pkg-config
+    - m2-patch     # [win]
+    - m2-gcc-libs  # [win]
+    - cmake
+    - ninja
+
+outputs:
+  - name: liblief
+    script: build-liblief.sh  # [unix]
+    script: bld-liblief.bat   # [win]
+    build:
+      run_exports:
+        - {{ pin_subpackage('liblief', max_pin='x.x') }}
+      missing_dso_whitelist:  # [s390x]
+        - $RPATH/ld64.so.1    # [s390x]
+    requirements:
+      build:
+        - {{ compiler('c') }}
+        - {{ compiler('cxx') }}
+        - pkg-config
+        - cmake
+        - ninja
+    test:
+      files:
+        - tests
+      script: run_test_liblief.sh
+      requires:
+        - {{ compiler('c') }}
+        - {{ compiler('cxx') }}
+        - cmake
+        - ninja
+
+  - name: py-lief
+    script: build-py-lief.sh  # [unix]
+    script: bld-py-lief.bat   # [win]
+    build:
+      run_exports:
+        - {{ pin_subpackage('py-lief', max_pin='x.x') }}
+      ignore_run_exports:
+        - python
+      missing_dso_whitelist:  # [s390x]
+        - $RPATH/ld64.so.1    # [s390x] Known defect.
+    requirements:
+      build:
+        - ccache
+        - {{ compiler('c') }}
+        - {{ compiler('cxx') }}
+        - pkg-config
+        - m2-patch  # [win]
+        - m2-gcc-libs  # [win]
+        - cmake
+        - ninja
+      host:
+        - {{ pin_subpackage('liblief', exact=True) }}
+        - python
+        - setuptools >=31.0.0
+        - pip
+        - wheel
+        - pybind11
+      run:
+        - {{ pin_subpackage('liblief', exact=True) }}
+        - python
+    test:
+      requires:
+        - {{ compiler('cxx') }}
+        - pip
+      imports:
+        - lief
+      commands:
+        - pip check
+
+about:
+  home: https://lief-project.github.io/
+  license: Apache-2.0
+  license_file: LICENSE
+  license_family: Apache
+  summary: A cross platform library to parse, modify and abstract ELF, PE and MachO formats.
+  description: |
+    It turns out that many projects need to parse executable formats and they usually re-implement
+    their own parser. Moreover these parsers are usually bound to one language.
+    LIEF attempts to fill this void.
+  doc_url: https://lief-project.github.io/doc/latest/
+  dev_url: https://github.com/lief-project/LIEF
+
+extra:
+  recipe-maintainers:
+    - isuruf
+    - mingwandroid
+    - msarahan

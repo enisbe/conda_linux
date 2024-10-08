@@ -1,0 +1,22 @@
+{
+  "arch": "x86_64",
+  "build": "py312h06a4308_0",
+  "build_number": 0,
+  "channel": "<unknown>",
+  "constrains": [],
+  "depends": [
+    "python >=3.12,<3.13.0a0"
+  ],
+  "fn": "soupsieve-2.5-py312h06a4308_0.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "102a7777bdfa79ba339be7bed43f8c7d",
+  "name": "soupsieve",
+  "platform": "linux",
+  "sha256": "905a86383c3d54a0f178ea915d5bb632f668bf1940a81e78eaed156d2105d513",
+  "size": 86455,
+  "subdir": "linux-64",
+  "timestamp": 1698866224782,
+  "url": "file:///home/enisbe/conda_packages/soupsieve-2.5-py312h06a4308_0.conda",
+  "version": "2.5"
+}

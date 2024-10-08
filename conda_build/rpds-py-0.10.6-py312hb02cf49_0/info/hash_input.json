@@ -1,0 +1,8 @@
+{
+  "channel_targets": "defaults",
+  "target_platform": "linux-64",
+  "c_compiler": "gcc",
+  "rust_compiler": "rust",
+  "rust_compiler_version": "1.71.1",
+  "c_compiler_version": "11.2.0"
+}

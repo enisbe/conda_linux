@@ -1,0 +1,80 @@
+# This file created by conda-build 24.1.2
+# meta.yaml template originally from:
+# /feedstock/recipe, last modified Tue May 14 14:12:59 2024
+# ------------------------------------------------
+
+package:
+  name: pkginfo
+  version: 1.10.0
+source:
+  sha256: 5df73835398d10db79f8eecd5cd86b1f6d29317589ea70796994d49399af6297
+  url: https://pypi.io/packages/source/p/pkginfo/pkginfo-1.10.0.tar.gz
+build:
+  entry_points:
+    - pkginfo = pkginfo.commandline:main
+  number: '0'
+  script: /croot/pkginfo_1715695984887/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/bin/python
+    -m pip install --no-deps --no-build-isolation . -vv
+  string: py312h06a4308_0
+requirements:
+  host:
+    - _libgcc_mutex 0.1 main
+    - _openmp_mutex 5.1 1_gnu
+    - bzip2 1.0.8 h5eee18b_6
+    - ca-certificates 2024.3.11 h06a4308_0
+    - expat 2.6.2 h6a678d5_0
+    - ld_impl_linux-64 2.38 h1181459_1
+    - libffi 3.4.4 h6a678d5_1
+    - libgcc-ng 11.2.0 h1234567_1
+    - libgomp 11.2.0 h1234567_1
+    - libstdcxx-ng 11.2.0 h1234567_1
+    - libuuid 1.41.5 h5eee18b_0
+    - ncurses 6.4 h6a678d5_0
+    - openssl 3.0.13 h7f8727e_1
+    - pip 24.0 py312h06a4308_0
+    - python 3.12.3 h996f2a0_1
+    - readline 8.2 h5eee18b_0
+    - setuptools 69.5.1 py312h06a4308_0
+    - sqlite 3.45.3 h5eee18b_0
+    - tk 8.6.14 h39e8969_0
+    - tzdata 2024a h04d1e81_0
+    - wheel 0.43.0 py312h06a4308_0
+    - xz 5.4.6 h5eee18b_1
+    - zlib 1.2.13 h5eee18b_1
+  run:
+    - python >=3.12,<3.13.0a0
+test:
+  commands:
+    - pip check
+    - pkginfo --help
+  imports:
+    - pkginfo
+    - pkginfo.tests
+  requires:
+    - pip
+about:
+  description: 'This package provides an API for querying the distutils metadata written
+    in
+
+    the ``PKG-INFO`` file inside a source distriubtion (an ``sdist``) or
+
+    a binary distribution (e.g., created by running ``bdist_egg``)
+
+    '
+  dev_url: https://code.launchpad.net/~tseaver/pkginfo/trunk
+  doc_url: https://pythonhosted.org/pkginfo/
+  home: https://code.launchpad.net/~tseaver/pkginfo/trunk
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE.txt
+  summary: Query metadatdata from sdists / bdists / installed packages.
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: bb5bdd72-6d79-4a27-b152-c760910faa7c
+  recipe-maintainers:
+    - jakirkham
+    - jankatins
+    - mingwandroid
+  remote_url: git@github.com:AnacondaRecipes/pkginfo-feedstock.git
+  sha: 5a44e75b4b924d3fc7567ac91523aa35e72906e4

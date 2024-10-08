@@ -1,0 +1,22 @@
+{
+  "arch": "x86_64",
+  "build": "py312h06a4308_0",
+  "build_number": 0,
+  "channel": "<unknown>",
+  "constrains": [],
+  "depends": [
+    "python >=3.12,<3.13.0a0"
+  ],
+  "fn": "boltons-23.0.0-py312h06a4308_0.conda",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "36d464442713fc92897b7da029a08fb6",
+  "name": "boltons",
+  "platform": "linux",
+  "sha256": "863753cc345aff6138517133864d2dfc74fb911d240f1620e924f1b8b3fb4f28",
+  "size": 473472,
+  "subdir": "linux-64",
+  "timestamp": 1698851195333,
+  "url": "file:///home/enisbe/conda_packages/boltons-23.0.0-py312h06a4308_0.conda",
+  "version": "23.0.0"
+}

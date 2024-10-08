@@ -1,0 +1,19 @@
+{
+  "arch": "x86_64",
+  "build": "py312h5eee18b_0",
+  "build_number": 0,
+  "constrains": [
+    "jinja2 >=3.0.0"
+  ],
+  "depends": [
+    "libgcc-ng >=11.2.0",
+    "python >=3.12,<3.13.0a0"
+  ],
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "name": "markupsafe",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1707343041188,
+  "version": "2.1.3"
+}

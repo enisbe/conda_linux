@@ -1,0 +1,16 @@
+site-packages/libarchive/__init__.py
+site-packages/libarchive/entry.py
+site-packages/libarchive/exception.py
+site-packages/libarchive/extract.py
+site-packages/libarchive/ffi.py
+site-packages/libarchive/flags.py
+site-packages/libarchive/read.py
+site-packages/libarchive/write.py
+site-packages/libarchive_c-5.1.dist-info/INSTALLER
+site-packages/libarchive_c-5.1.dist-info/LICENSE.md
+site-packages/libarchive_c-5.1.dist-info/METADATA
+site-packages/libarchive_c-5.1.dist-info/RECORD
+site-packages/libarchive_c-5.1.dist-info/REQUESTED
+site-packages/libarchive_c-5.1.dist-info/WHEEL
+site-packages/libarchive_c-5.1.dist-info/direct_url.json
+site-packages/libarchive_c-5.1.dist-info/top_level.txt

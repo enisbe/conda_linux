@@ -1,0 +1,14 @@
+prefix="/croot/lief_1670876047207/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl"
+exec_prefix="${prefix}"
+libdir="${prefix}/lib"
+includedir="${prefix}/include"
+
+Name: LIEF
+Description: Library to Instrument Executable Formats
+URL: https://github.com/lief-project/LIEF
+Version: 0.12.3
+Requires: 
+Requires.private: 
+Cflags: -I"${includedir}"
+Libs: -L"${libdir}" -lLIEF
+Libs.private: -L"${libdir}" -lLIEF 

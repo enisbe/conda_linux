@@ -1,0 +1,25 @@
+{
+  "arch": "x86_64",
+  "build": "py312h6a678d5_0",
+  "build_number": 0,
+  "channel": "<unknown>",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=11.2.0",
+    "liblief 0.12.3 h6a678d5_0",
+    "libstdcxx-ng >=11.2.0",
+    "python >=3.12,<3.13.0a0"
+  ],
+  "fn": "py-lief-0.12.3-py312h6a678d5_0.conda",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "md5": "d19a33a58bdf68d7487a4104d917a2af",
+  "name": "py-lief",
+  "platform": "linux",
+  "sha256": "01fa3761dc96a9f1a0cb8ab404747289de1f95400a7a8dc99a155e75d5eb1dbb",
+  "size": 1317067,
+  "subdir": "linux-64",
+  "timestamp": 1698870436271,
+  "url": "file:///home/enisbe/conda_packages/py-lief-0.12.3-py312h6a678d5_0.conda",
+  "version": "0.12.3"
+}

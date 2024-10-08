@@ -1,0 +1,11 @@
+index 41fdde0..1aeae88 100644
+--- a/src/patchelf.cc
++++ b/src/patchelf.cc
+@@ -26,6 +26,7 @@
+ #include <string>
+ #include <unordered_map>
+ #include <vector>
++#include <optional>
+ 
+ #include <cassert>
+ #include <cerrno>

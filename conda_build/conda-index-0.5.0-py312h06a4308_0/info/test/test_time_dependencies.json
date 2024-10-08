@@ -1,0 +1,1 @@
+["coverage", "pytest >=7", "pytest-cov", "tomli", "conda-build >=3.21.0", "pip", "fsspec", "pytest-mock", "conda-package-handling >=1.9.0"]

@@ -1,0 +1,1 @@
+["pytest >=6", "pip", "lxml", "html5lib"]

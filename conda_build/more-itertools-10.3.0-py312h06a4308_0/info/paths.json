@@ -1,0 +1,107 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.12/site-packages/more_itertools-10.3.0.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "lib/python3.12/site-packages/more_itertools-10.3.0.dist-info/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "09f1c8c9e941af3e584d59641ea9b87d83c0cb0fd007eb5ef391a7e2643c1a46",
+      "size_in_bytes": 1053
+    },
+    {
+      "_path": "lib/python3.12/site-packages/more_itertools-10.3.0.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "0453bdd0ef9f2cd89540ca63ee8212e73b73809514419dd3037d8fe471f737e0",
+      "size_in_bytes": 36293
+    },
+    {
+      "_path": "lib/python3.12/site-packages/more_itertools-10.3.0.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "ad74e93e60ee27d9315b4d21061c623e245d82ca0d8ee8e13a2430c82321cb59",
+      "size_in_bytes": 1362
+    },
+    {
+      "_path": "lib/python3.12/site-packages/more_itertools-10.3.0.dist-info/REQUESTED",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "lib/python3.12/site-packages/more_itertools-10.3.0.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "1196c6921ec87b83e865f450f08d19b8ff5592537f4ef719e83484e546abe33e",
+      "size_in_bytes": 81
+    },
+    {
+      "_path": "lib/python3.12/site-packages/more_itertools-10.3.0.dist-info/direct_url.json",
+      "path_type": "hardlink",
+      "sha256": "87d9f5f47d6a735f1dd71e9ed1846112b8aab1c6407ec94afc2f697163c4ce4e",
+      "size_in_bytes": 74
+    },
+    {
+      "_path": "lib/python3.12/site-packages/more_itertools/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "76d01b1a34c39a7fe08625396177e1c83cb4a610255d576de649590397d46be4",
+      "size_in_bytes": 149
+    },
+    {
+      "_path": "lib/python3.12/site-packages/more_itertools/__init__.pyi",
+      "path_type": "hardlink",
+      "sha256": "e41dde4f338dd4106e38ba1bd6f09f97211bda549deaeb17410f82bfe85791e0",
+      "size_in_bytes": 43
+    },
+    {
+      "_path": "lib/python3.12/site-packages/more_itertools/__pycache__/__init__.cpython-312.pyc",
+      "path_type": "hardlink",
+      "sha256": "68001bbd0246510fdb6749b5b86fdfe40b20b2926b1e9e7f135948787d37ff98",
+      "size_in_bytes": 306
+    },
+    {
+      "_path": "lib/python3.12/site-packages/more_itertools/__pycache__/more.cpython-312.pyc",
+      "path_type": "hardlink",
+      "sha256": "0575b8a2fb3b8c3c8002e335ee4a443c67372239fafe84f32ed64a6b30e1d992",
+      "size_in_bytes": 173726
+    },
+    {
+      "_path": "lib/python3.12/site-packages/more_itertools/__pycache__/recipes.cpython-312.pyc",
+      "path_type": "hardlink",
+      "sha256": "5cda55413ddad64121038c41a77237c15dcbd0bfeb210a4fb453c6df5c5896c1",
+      "size_in_bytes": 36209
+    },
+    {
+      "_path": "lib/python3.12/site-packages/more_itertools/more.py",
+      "path_type": "hardlink",
+      "sha256": "d44e64cc59dc44a4c3c34718bf5c915cc80376e9ecb4b41dd504ad7272fa53dd",
+      "size_in_bytes": 148370
+    },
+    {
+      "_path": "lib/python3.12/site-packages/more_itertools/more.pyi",
+      "path_type": "hardlink",
+      "sha256": "8975deaade3c3717bc5469885a99155ee2a947615836ebb60d4f2740b5820aed",
+      "size_in_bytes": 21484
+    },
+    {
+      "_path": "lib/python3.12/site-packages/more_itertools/py.typed",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "lib/python3.12/site-packages/more_itertools/recipes.py",
+      "path_type": "hardlink",
+      "sha256": "59e76185f846560aface28bc7c86c62559914f0d1929188b2a76010c626fe276",
+      "size_in_bytes": 28591
+    },
+    {
+      "_path": "lib/python3.12/site-packages/more_itertools/recipes.pyi",
+      "path_type": "hardlink",
+      "sha256": "4ff99d1a970575facfdc94966f0cd83fd272355f86a3eed13dfa717dfb405a50",
+      "size_in_bytes": 4617
+    }
+  ],
+  "paths_version": 1
+}

@@ -1,0 +1,22 @@
+{
+  "arch": "x86_64",
+  "build": "py312h06a4308_0",
+  "build_number": 0,
+  "channel": "<unknown>",
+  "constrains": [],
+  "depends": [
+    "python >=3.12,<3.13.0a0"
+  ],
+  "fn": "more-itertools-10.3.0-py312h06a4308_0.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "f4a4ebde3790bc626937717119a99a73",
+  "name": "more-itertools",
+  "platform": "linux",
+  "sha256": "67320930a6f2bd94be6e48c3b3f2376a371e38767fd04dd71f6f34b0dd9af592",
+  "size": 145140,
+  "subdir": "linux-64",
+  "timestamp": 1727185540409,
+  "url": "file:///home/enisbe/conda_packages/more-itertools-10.3.0-py312h06a4308_0.conda",
+  "version": "10.3.0"
+}
